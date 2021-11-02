@@ -22,7 +22,7 @@ export const memoryAdd = () => {
     return({ type: MEMORY_ADD});
 }
 export const memoryRecall = () => {
-    return({ type: MEMORY_RECAL});
+    return({ type: MEMORY_RECALL});
 }
 export const memoryClear = () => {
     return({ type: MEMORY_CLEAR});

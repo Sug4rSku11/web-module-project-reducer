@@ -19,12 +19,15 @@ function App() {
     dispatch(applyNumber(number))
   }
   const handleChangeOperator = (operator) => {
-    dispatch(changeOperator(operator))
+    dispatch(changeOperation(operator))
   }
   const handleClearDisplay = () => {
     dispatch(clearDisplay)
   }
-  const handleMemeoryRecall = () => {
+  const handleMemoryAdd = () => {
+    dispatch(memoryAdd())
+  }
+  const handleMemoryRecall = () => {
     dispatch(memoryRecall())
   }
   const handleMemoryClear = () => {
